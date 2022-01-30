@@ -285,9 +285,11 @@ header {
     color: #979797;
     font-weight: 700;
     font-size: 20px;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
+/*
 .menu-grid-btn {
     border: 1px solid #FBB731;
     background-color: #FBB731;
@@ -304,4 +306,92 @@ header {
     background-repeat: no-repeat;
     background-position: 20% center;
     margin: 20px 114px 0 114px;
+}
+*/
+
+.menu-grid-btn {
+    background-color: #FBB731;
+    border-radius: 5px;
+    padding: 10px 32px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 9px;
+    text-transform: uppercase;
+    color: #1E2F40;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.menu-grid-icon {
+    background-image: url(../images/cart-menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.footer {
+    background: #1E2F40;
+    color:#fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+    margin-top: 140px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 63px;
+    height: 56px;
+}
+.footer-item {
+    flex: 0 0 auto;
+}
+.footer-item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    margin-top: 0;
+}
+
+.footer-item li {
+    margin-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+.footer-item a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+.footer-item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.footer-tel ul {
+    font-size: 20px;
+    color: #FBB731;
+    margin-top: 0;
+    font-weight: 900;
+}
+.footer-tel li {
+    margin-bottom: 12px;
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style-type: none;
 }
