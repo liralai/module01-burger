@@ -351,9 +351,11 @@ header {
     width: 63px;
     height: 56px;
 }
+
 .footer-item {
     flex: 0 0 auto;
 }
+
 .footer-item h2 {
     font-size: 20px;
     font-weight: 800;
@@ -370,23 +372,27 @@ header {
     font-weight: 700;
     line-height: 24px;
 }
+
 .footer-item a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
 }
+
 .footer-item span {
     color: #DEDEDE;
     display: block;
     font-weight: 400;
     margin-bottom: 2px;
 }
+
 .footer-tel ul {
     font-size: 20px;
     color: #FBB731;
     margin-top: 0;
     font-weight: 900;
 }
+
 .footer-tel li {
     margin-bottom: 12px;
 }
