@@ -174,7 +174,7 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 100px 727px 100px 100px;
+    padding: 100px 100px;
     margin-bottom: 100px;
 }
 
@@ -215,14 +215,13 @@ header {
     color: #1E2F40;
     font-weight: 700;
     font-size: 14px;
-    line-height: 59px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    width: 170px;
-    height: 58px;
+    max-width: 170px;
     border: 1px solid #FBB731;
     border-radius: 5px;
+    padding: 20px 10px;
 }
 
 .banner-link:hover {
