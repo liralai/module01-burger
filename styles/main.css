@@ -832,11 +832,34 @@ header {
     }
     .menu-grid-title {
         font-size: 13px;
+        margin-top: 10px;
     }
 }
 
 @media (max-width: 320px) {
     .banner-box {
         background-position: 25% center;
+        padding: 38px 15px;
+        height: 255px;
+    }
+    .title {
+        margin-top: 26px;
+        margin-bottom: 13px;
+    }
+    .footer {
+        margin-top: 61px;
+    }
+    .footer-item h2 {
+        font-size: 18px;
+        margin-top: 23px;
+    }
+    .menu-grid {
+        gap: 25px 9px;
+    }
+    .menu-other .menu-grid-item {
+        flex: 0 0 43vw;
+    }
+    .menu-other .menu-grid-cover {
+        height: 56vw;
     }
 }
