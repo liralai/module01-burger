@@ -711,6 +711,9 @@ header {
     .menu-other .container {
         padding-right: 0;
     }
+    .menu-other .menu-grid {
+        padding-right: 15px;
+      }
     .button-up.visible {
         display: none;
     }
